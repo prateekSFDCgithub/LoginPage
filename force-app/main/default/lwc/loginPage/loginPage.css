@@ -1,0 +1,40 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f6f9;
+}
+
+.login-box {
+    width: 500px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 1rem;
+}
+
+.login-title {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.login-button {
+    margin-top: 1.5rem;
+}
+
+.forgot-password {
+    margin-top: 1rem;
+    color: #0070d2;
+    cursor: pointer;
+}
+.login-box lightning-input {
+    text-align: left;
+    margin-bottom: 1rem;
+    height: 3rem;
+}

@@ -1,0 +1,16 @@
+<template>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="logo">
+                <lightning-icon icon-name="utility:lock" size="large"></lightning-icon>
+            </div>
+            <h2 class="login-title">Welcome Back</h2>
+            <lightning-input label="Username" value={username} onchange={handleInputChange} type="text"></lightning-input>
+            <lightning-input label="Password" value={password} onchange={handleInputChange} type="password"></lightning-input>
+            <div class="login-button">
+                <lightning-button variant="brand" label="Login" onclick={handleLogin}></lightning-button>
+            </div>
+            <p class="forgot-password">Forgot your password?</p>
+        </div>
+    </div>
+</template>
